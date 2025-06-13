@@ -7,6 +7,7 @@ on:
   pull_request:
     types: [opened]  # open時のみトリガー（任意）
 
+
 jobs:
   say-hello:
     runs-on: ubuntu-latest
